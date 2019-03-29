@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Perkles/nodejs-course/issues"
   },
-  "homepage": "https://github.com/Perkles/nodejs-course#readme"
+  "homepage": "https://github.com/Perkles/nodejs-course#readme",
+  "dependencies": {
+    "express": "4.16.3"
+  }
 }

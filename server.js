@@ -1,11 +1,15 @@
 const http = require('http');
+const express = require('express');
+const app = express();
 
-const server = http.createServer(function(request, response){
-	response.end(`
-			<h1> vai tomar no cu olho no lance </>
-
-
-		`
-		);
+app.listen(3000, function(){
+	console.log('Server running');
 });
-server.listen(3000);
+
+app.get('/', function(request, response){
+	response.send(
+		`
+		<h1> Express </>
+		`
+	);
+});
