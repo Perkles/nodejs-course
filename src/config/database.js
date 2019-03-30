@@ -1,5 +1,5 @@
 const sqlite3 = require('sqlite3').verbose();
-const bd = new sqlite3.Database('data-base.db');
+const bd = new sqlite3.Database('data.db');
 
 const USUARIOS_SCHEMA = `
 CREATE TABLE IF NOT EXISTS usuarios (
